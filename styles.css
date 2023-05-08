@@ -27,7 +27,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding-left: 3rem; /* Add this line to increase the left padding */
+    padding-left: 7rem; /* Add this line to increase the left padding */
 }
 
 main {
