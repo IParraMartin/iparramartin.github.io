@@ -134,6 +134,16 @@ li {
     list-style-type: none;
 }
 
+.green-mark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
 footer {
     background-color: #d4d2d2;
     padding: 2rem;
@@ -147,5 +157,5 @@ footer {
     justify-content: space-between;
     text-align: center;
     margin: 0 auto;
-    padding-left: 3rem; /* Add this line to increase the left padding */
+    padding-left: 3rem
 }
