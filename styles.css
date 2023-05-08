@@ -45,15 +45,34 @@ p {
     margin-bottom: 1.5rem;
 }
 
-.line {
+.profile-picture {
+    width: 150px;
     display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
+  
+.social-media {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+  
+.social-icon {
+    margin: 0 5px;
+}
+  
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+  
+.social-icon:hover img {
+    transform: scale(1.2);
+}
+  
 
 footer {
     background-color: #f1f1f1;
