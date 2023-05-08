@@ -236,3 +236,47 @@ footer {
     margin: 0 auto;
     padding-left: 3rem
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .left-sidebar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  
+    .left-sidebar .profile-picture {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .left-sidebar .social-icon {
+      font-size: 16px;
+    }
+  
+    .left-sidebar .location-icon {
+      width: 16px;
+      height: 16px;
+    }
+  
+    .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .container {
+      width: 90%;
+    }
+  
+    .main-content {
+      margin-left: 0;
+    }
+  
+    .header-content {
+      text-align: center;
+    }
+  }
+  
