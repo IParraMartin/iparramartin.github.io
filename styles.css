@@ -13,7 +13,6 @@ body {
     color: #333;
 }
 
-
 header {
     background-color: #efefef;
     text-align: left;
@@ -27,6 +26,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
+    padding-left: 3rem; /* Add this line to increase the left padding */
 }
 
 main {
@@ -135,7 +136,16 @@ li {
 
 footer {
     background-color: #d4d2d2;
-    padding: 1rem;
-    text-align: center;
+    padding: 2rem;
     border-top: 1px solid #e5e5e5;
+    margin-top: 100px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.footer-content {
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 3rem; /* Add this line to increase the left padding */
 }
