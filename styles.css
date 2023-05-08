@@ -67,6 +67,14 @@ h1 {
     font-size: large;
 }
 
+h4 {
+    margin-bottom: 0;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(102, 102, 102);
+    font-size: large;
+}
+
 p {
     margin-bottom: 1.5rem;
 }
@@ -75,6 +83,7 @@ p {
 .profile-picture {
     width: 150px;
     display: block;
+    
     margin-bottom: 20px;
 }
  
