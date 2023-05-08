@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
+.section-divider {
+    border-top: 2px solid #dddddd;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    width: 100%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
 
 html, body {
     margin: 0;
@@ -58,14 +66,14 @@ h1 {
 h2 {
     font-size: 1.7rem;
     font-weight: 500;
-    margin-top: 2rem;
-    color: #333;
+    margin-top: 0rem;
+    color: #000000;
 }
 
 h3 {
     margin-bottom: 0;
     font-weight: 500;
-    color: rgb(0, 0, 0);
+    color: #333;
     font-size: large;
 }
 
