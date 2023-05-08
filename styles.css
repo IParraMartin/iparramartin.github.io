@@ -1,23 +1,42 @@
-
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: 50px;
     padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
 }
 
 main {
     padding: 2rem;
 }
 
+header {
+    background-color: #f1efef;
+    color: white;
+    text-align: left;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #747474;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
 h1 {
     margin-bottom: 1rem;
+    color: black;
+    font-size: large;
 }
 
 p {
