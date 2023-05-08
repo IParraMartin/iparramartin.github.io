@@ -13,6 +13,7 @@ header {
     color: white;
     text-align: left;
     padding: 1rem;
+    border-bottom: 1px solid #ccc;
 }
 
 nav ul {
@@ -52,4 +53,11 @@ p {
     width: 0;
     height: 2px;
     background-color: #000;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
 }
