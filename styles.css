@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 .section-divider {
-    border-top: 2px solid #dddddd;
+    border-top: 2px solid #352aff4f;
     margin-top: 0;
     margin-bottom: 1rem;
     width: 100%; 
@@ -201,6 +201,7 @@ ul {
 li {
     margin-bottom: 1rem;
 }
+
 
 
 
