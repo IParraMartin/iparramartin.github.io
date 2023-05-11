@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
+
 .section-divider {
     border-top: 2px solid #352aff4f;
     margin-top: 0;
@@ -151,6 +152,29 @@ p {
     position: fixed;
     left: 110px;
     top: 120px;
+}
+
+
+.carousel {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel__track {
+    display: flex;
+    width: calc(100% * 6); /* Adjust according to the number of images */
+    animation: scroll 60s linear infinite; /* Adjust speed here */
+}
+
+.carousel__img {
+    width: calc(100% / 6); /* Adjust according to the number of images */
+    height: 300px; /* Adjust height here */
+    object-fit: cover;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-100% / 2)); }
 }
 
 
