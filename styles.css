@@ -162,13 +162,13 @@ p {
 
 .carousel__track {
     display: flex;
-    width: calc(100% * 4); /* Adjust according to the number of images */
-    animation: scroll 100s linear infinite; /* Adjust speed here */
+    width: calc(100% * 4); 
+    animation: scroll 100s linear infinite; 
 }
 
 .carousel__img {
-    width: calc(100% / 6); /* Adjust according to the number of images */
-    height: 300px; /* Adjust height here */
+    width: calc(100% / 6); 
+    height: 500px; 
     object-fit: cover;
 }
 
