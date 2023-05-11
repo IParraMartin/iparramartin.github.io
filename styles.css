@@ -162,7 +162,7 @@ p {
 
 .carousel__track {
     display: flex;
-    width: calc(100% * 4); 
+    width: calc(100% * 6); 
     animation: scroll 100s linear infinite; 
 }
 
@@ -174,7 +174,7 @@ p {
 
 @keyframes scroll {
     0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-100% / 2)); }
+    100% { transform: translateX(calc(-100%)); }
 }
 
 
