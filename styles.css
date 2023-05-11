@@ -163,7 +163,7 @@ p {
 .carousel__track {
     display: flex;
     width: calc(100% * 4); 
-    animation: scroll 10s linear infinite; 
+    animation: scroll 100s linear infinite; 
 }
 
 .carousel__img {
