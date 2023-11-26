@@ -212,17 +212,19 @@ p {
 
 .project-container {
     display: flex;
+    width: 80%;
     align-items: center;
     margin-bottom: 3rem;
 }
 
 .project-description {
     flex: 1;
+    margin-right: -100px;
 }
 
 .project-video {
     flex: 1;
-    margin-left: 20px;
+    margin-left: 140px;
     margin-right: -150px;
 }
 
