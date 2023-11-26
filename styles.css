@@ -104,9 +104,18 @@ p {
 
 .profile-picture {
     width: 150px;
+    height: 180px; /* Adjust to your image's height */
     display: block;
     border-radius: 5%;
     margin-bottom: 30px;
+    background: url('profile_gs.png') no-repeat center center; /* Replace with your grayscale image */
+    background-size: cover;
+    transition: background 0.2s ease-in-out;
+}
+
+.profile-picture:hover {
+    background: url('profile_color.png') no-repeat center center; /* Replace with your colored image */
+    background-size: cover;
 }
 
 .location {
@@ -194,6 +203,7 @@ p {
 .carousel__img {
     width: calc(100% / 6); 
     height: 300px; 
+    margin: 5px;
     object-fit: cover;
     border-radius: 2%;
 }
