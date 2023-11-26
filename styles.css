@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'EB Garamond', serif;
     line-height: 1.6;
     color: #333;
 }
@@ -35,7 +35,7 @@ header {
 }
 
 .header-content {
-    font-family: "Raleway", sans-serif;
+    font-family: 'EB Garamond', serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,7 +62,7 @@ main {
 }
 
 li {
-    font-family: "Roboto", sans-serif;
+    font-family: 'EB Garamond', serif;
     font-weight: 100;
     font-size: 1rem;
     line-height: 1.6;
