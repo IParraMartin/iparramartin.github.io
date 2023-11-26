@@ -290,6 +290,42 @@ footer {
 }
 
 
+.navbar a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    color: #dddddd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+  
+.navbar a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #343a40;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+  
+.navbar a:hover {
+    color: #36414d;
+ }
+  
+.navbar a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.navbar {
+    margin-left: 320px; /* Adjust this value to your liking */
+}
+
 /* This section to make it suitable for iphone */
 @media screen and (max-width: 1024px) {
     .left-sidebar {
