@@ -24,15 +24,10 @@ body {
     color: #333;
 }
 
-header {
-    background-color: #efefef;
-    text-align: left;
-    padding: 0;
-    height: 90px;
-    border-bottom: 1px solid #ccc;
-    box-sizing: border-box;
-    width: 100%;
+.header-content {
+    padding-top: 40px; /* Adjust this value to your liking */
 }
+
 
 .header-content {
     font-family: 'EB Garamond', serif;
@@ -169,7 +164,7 @@ p {
 .left-sidebar {
     position: fixed;
     left: 110px;
-    top: 120px;
+    top: 150px;
 }
 
 
@@ -218,6 +213,7 @@ p {
 .project-container {
     display: flex;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 .project-description {
@@ -227,6 +223,7 @@ p {
 .project-video {
     flex: 1;
     margin-left: 20px;
+    margin-right: -150px;
 }
 
 .project-content {
@@ -334,7 +331,9 @@ footer {
 }
 
 .navbar {
-    margin-left: 320px; /* Adjust this value to your liking */
+    position: absolute;
+    left: 340px;
+    top: 55px; /* Adjust this value to line up with your header */
 }
 
 
