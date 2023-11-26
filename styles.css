@@ -326,6 +326,7 @@ footer {
     margin-left: 320px; /* Adjust this value to your liking */
 }
 
+
 /* This section to make it suitable for iphone */
 @media screen and (max-width: 1024px) {
     .left-sidebar {
