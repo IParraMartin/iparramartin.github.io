@@ -137,12 +137,14 @@ p {
     align-items: flex-start;
     justify-content: left;
     margin-bottom: 20px;
+    text-decoration: none;
 }
   
 .social-icon {
     margin: 5px 0;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .social-icon span {
@@ -164,7 +166,7 @@ p {
 .left-sidebar {
     position: fixed;
     left: 110px;
-    top: 150px;
+    top: 160px;
 }
 
 
