@@ -28,6 +28,9 @@ body {
     padding-top: 40px; /* Adjust this value to your liking */
 }
 
+a {
+    color: #000000; /* Replace with the color you want */
+}
 
 .header-content {
     font-family: 'EB Garamond', serif;
