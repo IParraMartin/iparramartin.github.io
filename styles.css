@@ -390,17 +390,25 @@ footer {
     .main-content {
       padding-left: 0;
     }
+
+    .demos-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
-
 @media screen and (max-width: 768px) {
-    .header-content {
-      padding-left: 1rem;
+
+    .navbar {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        left: auto;
     }
-  
-    .left-sidebar .profile-picture {
-      width: 100px;
-      height: 100px;
+    
+    .navbar a {
+        margin: 5px 0;
     }
   
     .left-sidebar .social-icon {
@@ -410,6 +418,32 @@ footer {
     .left-sidebar .location-icon {
       width: 14px;
       height: 14px;
+    }
+
+    .main-content {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+    
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.7rem; }
+    h3 { font-size: 1.3rem; }
+    
+    .project-container {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    .project-description {
+        margin-right: 0;
+    }
+    
+    .project-video {
+        margin-right: 0;
+    }
+    
+    .demos-grid {
+        gap: 1.5rem;
     }
   
     .container {
@@ -432,39 +466,104 @@ footer {
     .overlay {
       width: 100%;
     }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .left-sidebar {
+        left: 30px;
+    }
+    
+    .navbar {
+        left: 240px;
+    }
+    
+    .main-content {
+        padding-left: 240px;
+        max-width: 100%;
+    }
+    
+    .project-container {
+        width: 100%;
+    }
+    
+    .project-video {
+        margin-left: 60px;
+        margin-right: -60px;
+    }
+
+    .demos-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-content {
+        padding: 0;
+        flex-direction: column;
+    }
+    
+    .main-content {
+        padding: 0 0.5rem;
+    }
+    
+    .demo-info h3 {
+        font-size: 1.1rem;
+    }
+    
+    .demo-info p {
+        font-size: 0.9rem;
+    }
+    
+    .tech-tags {
+        gap: 5px;
+    }
+    
+    .tech-tag {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.5rem;
+    }
+    
+    .footer-content {
+        padding-left: 0;
+    }
+
+    .demos-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 /* Elegant Demonstrations Section */
 .demos-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
     margin-top: 2rem;
-  }
+}
   
-  .demo-card {
+.demo-card {
     background: white;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
     transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
-  .demo-card:hover {
+}
+
+.demo-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
-  }
-  
-  .demo-video-container {
+}
+
+.demo-video-container {
     width: 100%;
     position: relative;
     overflow: hidden;
     border-radius: 12px 12px 0 0;
     background-color: #f8f9fa;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
-  }
-  
-  .demo-video {
+    padding-top: 56.25%;
+}
+
+.demo-video {
     position: absolute;
     top: 0;
     left: 0;
@@ -473,63 +572,50 @@ footer {
     object-fit: cover;
     border: none;
     display: block;
-  }
-  
-  .demo-info {
+}
+
+.demo-info {
     padding: 1.5rem;
-  }
-  
-  .demo-info h3 {
+}
+
+.demo-info h3 {
     font-size: 1.3rem;
     margin: 0 0 0.8rem;
     color: #1a365d;
-  }
-  
-  .demo-info p {
+}
+
+.demo-info p {
     font-size: 1rem;
     line-height: 1.5;
     margin: 0 0 1.2rem;
     color: #4a5568;
-  }
-  
-  .tech-tags {
+}
+
+.tech-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-  }
-  
-  .tech-tag {
+}
+
+.tech-tag {
     background-color: #e6f7ff;
     color: #0072b1;
     font-size: 0.8rem;
     padding: 0.3rem 0.7rem;
     border-radius: 20px;
     transition: all 0.2s ease-in-out;
-  }
-  
-  .tech-tag:hover {
+}
+
+.tech-tag:hover {
     background-color: #bae7ff;
     transform: translateY(-2px);
-  }
-  
-  /* Responsive grid layout for larger screens */
-  @media (min-width: 768px) {
-    .demos-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  @media (min-width: 1024px) {
-    .demos-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-  
-  /* Replace <br><br> with proper spacing */
-  .section-divider {
-    margin: 4rem 0;
+}
+
+
+.section-divider {
+    margin: 3rem 0;
     border: none;
-    height: 1px;
-    background-color: #e2e8f0;
-  }
-  
+    height: 2px;
+    background-color: #352aff4f;
+    width: 100%;
+}
